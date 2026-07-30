@@ -6,6 +6,8 @@ TagManager:
   tags:
   - TriggerSueloEsferas
   - FinalLaberinto
+  - TrampaSuelo
+  - TrampaPared
   layers:
   - Default
   - TransparentFX

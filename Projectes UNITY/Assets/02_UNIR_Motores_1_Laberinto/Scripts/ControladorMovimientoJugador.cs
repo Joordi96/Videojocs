@@ -18,6 +18,9 @@ public class ControladorMovimientoJugador : MonoBehaviour
     [SerializeField] private InputActionReference salto;
     [SerializeField] private InputActionReference disparo;
 
+    [SerializeField] Transform puntoRespawn;
+
+
     private Rigidbody rb;
     private RigidbodyConstraints restriccionesOriginales;
 
@@ -85,7 +88,7 @@ public class ControladorMovimientoJugador : MonoBehaviour
                 rb.linearVelocity.z
             );
 
-            Debug.Log("El jugador está saltando");
+            //Debug.Log("El jugador está saltando");
         }
 
         quiereSaltar = false;
@@ -129,7 +132,7 @@ public class ControladorMovimientoJugador : MonoBehaviour
     private void OnMove(InputAction.CallbackContext context)
     {
         rawMove = context.ReadValue<Vector2>();
-        Debug.Log($"Movimiento: {rawMove}");
+        //Debug.Log($"Movimiento: {rawMove}");
     }
 
     private void OnJump(InputAction.CallbackContext context)
@@ -176,6 +179,15 @@ public class ControladorMovimientoJugador : MonoBehaviour
         {
             rb.constraints = restriccionesOriginales;
         }
+    }
+
+    public void Respawn()
+    {
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+
+        transform.position = puntoRespawn.position;
+        transform.rotation = puntoRespawn.rotation;
     }
 
 }
