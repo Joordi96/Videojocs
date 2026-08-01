@@ -5010,6 +5010,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4528263218302014}
   - component: {fileID: 137655742352887926}
+  - component: {fileID: 5918866512332319415}
+  - component: {fileID: 5949550795188200295}
+  - component: {fileID: 6098219274877537849}
   m_Layer: 0
   m_Name: weapon1
   m_TagString: Untagged
@@ -5026,8 +5029,8 @@ Transform:
   m_GameObject: {fileID: 1396151517390792}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0421444, y: 1.0421444, z: 1.0421444}
+  m_LocalPosition: {x: -0, y: 0.066, z: 0}
+  m_LocalScale: {x: 1.06, y: 1.06, z: 1.06}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4253374395522766}
@@ -5217,6 +5220,56 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.9769346, y: -0.32163393, z: 0.13283253}
     m_Extent: {x: 0.15971977, y: 0.17218018, z: 0.13024741}
   m_DirtyAABB: 0
+--- !u!65 &5918866512332319415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396151517390792}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22026882, y: 0.19850543, z: 0.21169986}
+  m_Center: {x: 0.89430183, y: 0.6114147, z: 0.10833054}
+--- !u!114 &5949550795188200295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396151517390792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2bc65656ca370c49a7c322047121210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnTriggerTrampa
+  trampa: {fileID: 6098219274877537849}
+--- !u!114 &6098219274877537849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396151517390792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3624a7e667388924ca86f91eb6ab09a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControladorTrampaSoldado
+  mensaje: Te dieron con la bola...
+  tiempoMensaje: 3
+  velocidadGiro: 0
+  ejeRotacion: {x: 0, y: 0, z: 0}
 --- !u!1 &1402297705949960
 GameObject:
   m_ObjectHideFlags: 0
@@ -11960,6 +12013,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4394185532969230}
   - component: {fileID: 95549024643180554}
+  - component: {fileID: 7127802190834115789}
+  - component: {fileID: 8981843559190439569}
+  - component: {fileID: 8700995410675584855}
   m_Layer: 0
   m_Name: Crusader tank_prefab
   m_TagString: Untagged
@@ -11995,8 +12051,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1949430161825482}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: ea3c190656c1be74bba0bd65a3905278, type: 3}
-  m_Controller: {fileID: 9100000, guid: 074e753a60b1dce4e871b757053fafda, type: 2}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -12008,6 +12064,56 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7127802190834115789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949430161825482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2bc65656ca370c49a7c322047121210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OnTriggerTrampa
+  trampa: {fileID: 8981843559190439569}
+--- !u!114 &8981843559190439569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949430161825482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3624a7e667388924ca86f91eb6ab09a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ControladorTrampaSoldado
+  mensaje: "Te mat\xF3 el soldado..."
+  tiempoMensaje: 3
+  velocidadGiro: 1
+  ejeRotacion: {x: 0, y: 1, z: 0}
+--- !u!65 &8700995410675584855
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949430161825482}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2, z: 0.3995564}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &1953607639529104
 GameObject:
   m_ObjectHideFlags: 0
