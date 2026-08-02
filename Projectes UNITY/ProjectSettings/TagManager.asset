@@ -8,6 +8,7 @@ TagManager:
   - FinalLaberinto
   - TrampaSuelo
   - TrampaPared
+  - Boton
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Paredes
-  - 
+  - Boton
   - 
   - 
   - 
