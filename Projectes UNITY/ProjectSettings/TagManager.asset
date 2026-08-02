@@ -9,6 +9,7 @@ TagManager:
   - TrampaSuelo
   - TrampaPared
   - Boton
+  - TrampaSoldado
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - UI
   - Paredes
   - Boton
-  - 
+  - Soldado
   - 
   - 
   - 
