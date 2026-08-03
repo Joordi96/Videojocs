@@ -138,13 +138,13 @@ public class ControladorMovimientoJugador : MonoBehaviour
     private void OnJump(InputAction.CallbackContext context)
     {
         quiereSaltar = true;
-        Debug.Log("Salto");
+        //Debug.Log("Salto");
     }
 
     private void OnShoot(InputAction.CallbackContext context)
     {
         estaDisparando = context.ReadValueAsButton();
-        Debug.Log("Disparo");
+        //Debug.Log("Disparo");
     }
 
     private void comprobarSuelo()
