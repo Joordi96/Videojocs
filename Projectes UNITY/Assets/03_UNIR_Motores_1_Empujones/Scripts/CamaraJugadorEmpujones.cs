@@ -6,6 +6,7 @@ public class CamaraJugadorEmpujones : MonoBehaviour
     [SerializeField] private float sensibilidad = 20f;
     [SerializeField] private InputActionReference mirar;
     [SerializeField] private Rigidbody rbJugador;
+    [SerializeField] private bool mostrarCursor;
 
     private bool puedeMirar = true;
     private float rotacionVertical;
@@ -24,8 +25,8 @@ public class CamaraJugadorEmpujones : MonoBehaviour
 
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = mostrarCursor;
 
         rotacionHorizontal = rbJugador.rotation.eulerAngles.y;
     }
