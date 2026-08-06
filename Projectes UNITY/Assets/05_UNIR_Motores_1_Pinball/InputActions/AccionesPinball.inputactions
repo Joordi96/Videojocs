@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "AccionesPinball",
+    "maps": [
+        {
+            "name": "AccionesPinball",
+            "id": "c6c42975-fb83-46b4-9337-6a7ea2ad8d42",
+            "actions": [
+                {
+                    "name": "DispararBola",
+                    "type": "Button",
+                    "id": "205e3bcf-b788-4032-a405-3ef86aabc8a1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ActivarPalaIzquierda",
+                    "type": "Button",
+                    "id": "c504c209-60e4-4047-98cc-704398244468",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ActivarPalaDerecha",
+                    "type": "Button",
+                    "id": "503c7b27-f03b-49f8-871c-aef7fcd0f476",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9a38c57-5e54-4b18-bcf6-1e564a6bdc16",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DispararBola",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "61cdce9b-3d96-49a6-ac7a-db8f0cf77d97",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivarPalaIzquierda",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5bf32deb-41ce-4206-b733-90c24798ea27",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActivarPalaDerecha",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
