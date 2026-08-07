@@ -10,14 +10,11 @@ public class DetectarBotonConOverlap : MonoBehaviour
 
     public void Awake()
     {
-        controladorMensajes =
-                    FindFirstObjectByType<ControladorMensajes>();
+        controladorMensajes = FindFirstObjectByType<ControladorMensajes>();
 
         if (controladorMensajes == null)
         {
-            Debug.LogError(
-                "No se ha encontrado un ControladorMensajes en la escena."
-            );
+            Debug.LogError("No se ha encontrado un ControladorMensajes en la escena.");
         }
     }
     public void Update()
@@ -36,11 +33,9 @@ public class DetectarBotonConOverlap : MonoBehaviour
             }
         }
 
-
-
         if (hayBoton && !textoVisible)
         {
-            controladorMensajes.MostrarInteraccion("Pulsa E para activar");
+            controladorMensajes.MostrarInteraccion("Pulsa [E] para activar");
             textoVisible = true;
         }
         else if (!hayBoton && textoVisible)
@@ -50,6 +45,3 @@ public class DetectarBotonConOverlap : MonoBehaviour
         }
     }
 }
-
-
-//         Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, Mathf.Infinity, layermask);

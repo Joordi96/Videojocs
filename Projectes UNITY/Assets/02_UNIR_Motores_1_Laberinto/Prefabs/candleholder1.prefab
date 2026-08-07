@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 482150}
   - component: {fileID: 19861824}
   - component: {fileID: 19979542}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fire3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4800,7 +4800,7 @@ GameObject:
   - component: {fileID: 3320120}
   - component: {fileID: 2392614}
   - component: {fileID: 7411194995094251834}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: candleholder1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4914,7 +4914,7 @@ GameObject:
   - component: {fileID: 455612}
   - component: {fileID: 10829836}
   - component: {fileID: 6964106035830816726}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4953,7 +4953,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -5041,7 +5041,7 @@ GameObject:
   - component: {fileID: 451768}
   - component: {fileID: 19829364}
   - component: {fileID: 19946952}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fire2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

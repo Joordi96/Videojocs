@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 434030}
   - component: {fileID: 3314086}
   - component: {fileID: 2307592}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: candle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 409730}
   - component: {fileID: 19814852}
   - component: {fileID: 19939150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fire2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4893,7 +4893,7 @@ GameObject:
   - component: {fileID: 431554}
   - component: {fileID: 19877140}
   - component: {fileID: 19902556}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fire4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9682,7 +9682,7 @@ GameObject:
   - component: {fileID: 3333688}
   - component: {fileID: 2347066}
   - component: {fileID: 458342197528636301}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: barrel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9794,7 +9794,7 @@ GameObject:
   - component: {fileID: 476280}
   - component: {fileID: 10863192}
   - component: {fileID: 7502344340738542127}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9833,7 +9833,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9921,7 +9921,7 @@ GameObject:
   - component: {fileID: 499606}
   - component: {fileID: 19865744}
   - component: {fileID: 19978884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fire3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3341776}
   - component: {fileID: 2341344}
   - component: {fileID: 6490378036027261926}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: box3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 433372}
   - component: {fileID: 3383418}
   - component: {fileID: 2369790}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: helmet 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 413116}
   - component: {fileID: 3363592}
   - component: {fileID: 2395458}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

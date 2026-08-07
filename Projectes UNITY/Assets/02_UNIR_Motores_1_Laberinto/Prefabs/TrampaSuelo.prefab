@@ -51,7 +51,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ControladorTrampaSuelo
   mensaje: Pisaste los pinchos...
   tiempoMensaje: 3
-  controladorMensajes: {fileID: 0}
   velocidad: 0.1
   alturaFinal: 2
   alturaInicial: -1
@@ -230,7 +229,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.5, y: 1, z: 0.1112194}
+  m_Size: {x: 4.5, y: 1, z: 1}
   m_Center: {x: 0, y: -2, z: 0}
 --- !u!1001 &2391997632681656300
 PrefabInstance:

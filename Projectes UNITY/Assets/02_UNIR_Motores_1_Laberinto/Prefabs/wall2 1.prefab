@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 493022}
   - component: {fileID: 19862558}
   - component: {fileID: 19985210}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: fire4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4799,7 +4799,7 @@ GameObject:
   - component: {fileID: 463098}
   - component: {fileID: 10801122}
   - component: {fileID: 626450641593863875}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4838,7 +4838,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -4926,7 +4926,7 @@ GameObject:
   - component: {fileID: 470430}
   - component: {fileID: 3366820}
   - component: {fileID: 2391182}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: litter1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5016,7 +5016,7 @@ GameObject:
   - component: {fileID: 420840}
   - component: {fileID: 3386370}
   - component: {fileID: 2389310}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: candle3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5111,7 +5111,7 @@ GameObject:
   - component: {fileID: 3332020}
   - component: {fileID: 2360762}
   - component: {fileID: 5352798408763458363}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: wall2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5224,7 +5224,7 @@ GameObject:
   - component: {fileID: 441552}
   - component: {fileID: 19831596}
   - component: {fileID: 19932114}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: fire2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10012,7 +10012,7 @@ GameObject:
   - component: {fileID: 421380}
   - component: {fileID: 19824564}
   - component: {fileID: 19955860}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: fire3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

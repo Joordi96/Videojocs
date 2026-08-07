@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 456474}
   - component: {fileID: 3302868}
   - component: {fileID: 2312782}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: armor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 3369460}
   - component: {fileID: 2319170}
   - component: {fileID: 2189253319679042665}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mannequin 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
